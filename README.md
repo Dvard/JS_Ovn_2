@@ -1,6 +1,11 @@
 # JS_Ovn_2
 Grunder i programmering: JavaScript-övning 2.
 
+# Demo
+Live demo: [här](https://dvard.github.io/JS_Ovn_2)
+
+___
+
 # Javascript övning 2 - villkorssatser
 - Gör en ny html-fil med namnet js_ovn_2.html och JS-filen js_ovn_2.js. 
 - Spara resultaten i variablar, t.ex. i första uppgiften ”var uppg1=...”. 
