@@ -49,7 +49,12 @@ function uppgift5() {
 
 function uppgift6() {
 	const var_type = true;
-	return 'datat är av typen: ' + typeof(var_type);
+	const message = 'datat är av typen: ';
+	const types = {'string': 'teckensträng', 'number': 'nummer', 'boolean': 'boolesk'}
+	if (String(typeof(var_typ)) in types) {
+		return message + types[String(typeof(var_typ))];
+	}
+	return message + 'något annat';
 }
 
 function uppgift7() {
