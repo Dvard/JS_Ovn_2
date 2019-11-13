@@ -51,7 +51,7 @@ function uppgift6() {
 	const var_type = true;
 	const message = 'datat är av typen: ';
 	const types = {'string': 'teckensträng', 'number': 'nummer', 'boolean': 'boolesk'}
-	return message + types[String(typeof(var_typ))];
+	return message + types[String(typeof var_type)];
 }
 
 function uppgift7() {
